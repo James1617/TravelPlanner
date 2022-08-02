@@ -1,0 +1,30 @@
+{
+  "orgName": "Travel Planner",
+  "edition": "Developer",
+  "language": "en_US",
+  "hasSampleData": true,
+  "features": ["EnableSetPasswordInApi","Sites","Communities","MultiCurrency","ServiceCloud","API","ContactsToMultipleAccounts","ContractApprovals", "DeviceTrackingEnabled", "FieldAuditTrail","FinanceLogging","FlowSites","Interaction","LightningSalesConsole","LightningScheduler","LightningServiceConsole","LiveAgent","MarketingUser","RecordTypes","SalesUser","ServiceCloud","ServiceUser","SharedActivities"],
+  "settings": {
+    "communitiesSettings": {
+      "enableNetworksEnabled": true
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata":true
+    }, 
+    "pathAssistantSettings": {
+      "pathAssistantEnabled":true
+    },
+    "quoteSettings": {
+      "enableQuote":true
+    },
+      "omniChannelSettings": {
+       "enableOmniChannel": true
+    }
+  }
+}
