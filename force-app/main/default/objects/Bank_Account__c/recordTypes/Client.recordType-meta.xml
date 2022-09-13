@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Client</fullName>
+    <active>true</active>
+    <description>Bank Account belonging to client</description>
+    <label>Client</label>
+    <picklistValues>
+        <picklist>Beneficiary_Bank_Account_Type__c</picklist>
+        <values>
+            <fullName>Certificate of Deposit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Checking Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Individual Retirement Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money Market Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saving Account</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
