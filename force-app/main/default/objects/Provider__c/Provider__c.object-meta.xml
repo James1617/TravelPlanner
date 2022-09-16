@@ -155,8 +155,9 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Provider</label>
     <nameField>
-        <label>Provider Name</label>
-        <type>Text</type>
+        <displayFormat>P-{00000000}</displayFormat>
+        <label>Provider Identifier</label>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Providers</pluralLabel>
     <searchLayouts></searchLayouts>

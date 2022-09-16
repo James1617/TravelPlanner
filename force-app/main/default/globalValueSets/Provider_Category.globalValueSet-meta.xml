@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Client Type 1</fullName>
+        <fullName>Provider 1</fullName>
         <default>false</default>
-        <label>Client Type 1</label>
+        <label>Provider 1</label>
     </customValue>
     <customValue>
-        <fullName>Client Type 2</fullName>
+        <fullName>Provider 2</fullName>
         <default>false</default>
-        <label>Client Type 2</label>
+        <label>Provider 2</label>
     </customValue>
     <customValue>
-        <fullName>Client Type 3</fullName>
+        <fullName>Provider 3</fullName>
         <default>false</default>
-        <label>Client Type 3</label>
+        <label>Provider 3</label>
     </customValue>
-    <masterLabel>Client category</masterLabel>
+    <masterLabel>Provider Category</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

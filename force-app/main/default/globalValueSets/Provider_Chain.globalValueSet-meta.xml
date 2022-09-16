@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Wholesaler</fullName>
+        <fullName>Accor</fullName>
         <default>false</default>
-        <label>Wholesaler</label>
+        <label>Accor</label>
     </customValue>
     <customValue>
-        <fullName>Retailer</fullName>
+        <fullName>Estelar</fullName>
         <default>false</default>
-        <label>Retailer</label>
+        <label>Estelar</label>
     </customValue>
     <customValue>
-        <fullName>Not applicable</fullName>
+        <fullName>Marriot</fullName>
         <default>false</default>
-        <label>Not applicable</label>
+        <label>Marriot</label>
     </customValue>
-    <masterLabel>Branch</masterLabel>
+    <masterLabel>Provider Chain</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

@@ -155,9 +155,10 @@
     <externalSharingModel>ReadWrite</externalSharingModel>
     <label>Bank Account</label>
     <nameField>
-        <label>Bank Account Name</label>
+        <displayFormat>B-{00000}</displayFormat>
+        <label>Bank Account ID</label>
         <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Bank Accounts</pluralLabel>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
