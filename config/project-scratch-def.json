@@ -25,6 +25,9 @@
     },
       "omniChannelSettings": {
        "enableOmniChannel": true
+    }, 
+      "customAddressFieldSettings": {
+      "enableCustomAddressField": true
     }
   }
 }
