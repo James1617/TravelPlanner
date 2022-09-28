@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 75,
+  "serverMaxRevisionCounter": 81,
   "sourceMembers": {
     "GlobalValueSet__Chain": {
       "serverRevisionCounter": 5,
@@ -374,10 +374,10 @@
       "isNameObsolete": false
     },
     "GlobalValueSet__Client_Chain": {
-      "serverRevisionCounter": 35,
-      "lastRetrievedFromServer": 35,
+      "serverRevisionCounter": 76,
+      "lastRetrievedFromServer": 76,
       "memberType": "GlobalValueSet",
-      "isNameObsolete": false
+      "isNameObsolete": true
     },
     "GlobalValueSet__Department": {
       "serverRevisionCounter": 36,
@@ -407,6 +407,30 @@
       "serverRevisionCounter": 27,
       "lastRetrievedFromServer": 27,
       "memberType": "CustomObject",
+      "isNameObsolete": false
+    },
+    "Layout__Opportunity-Opportunity (Marketing) Layout": {
+      "serverRevisionCounter": 79,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Opportunity-Opportunity (Sales) Layout": {
+      "serverRevisionCounter": 80,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Opportunity-Opportunity (Support) Layout": {
+      "serverRevisionCounter": 81,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Opportunity-Opportunity Layout": {
+      "serverRevisionCounter": 78,
+      "lastRetrievedFromServer": 78,
+      "memberType": "Layout",
       "isNameObsolete": false
     }
   }

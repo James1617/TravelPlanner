@@ -224,6 +224,9 @@
         <layout>Contact-Contact %28Sales%29 Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Opportunity-Opportunity %28Sales%29 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Policy__c-Cancellation Policy Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
