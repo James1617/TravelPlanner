@@ -3,7 +3,7 @@
   "sourceMembers": {
     "GlobalValueSet__Chain": {
       "serverRevisionCounter": 5,
-      "lastRetrievedFromServer": null,
+      "lastRetrievedFromServer": 5,
       "memberType": "GlobalValueSet",
       "isNameObsolete": false
     },
@@ -15,7 +15,7 @@
     },
     "GlobalValueSet__Client_Category": {
       "serverRevisionCounter": 7,
-      "lastRetrievedFromServer": null,
+      "lastRetrievedFromServer": 7,
       "memberType": "GlobalValueSet",
       "isNameObsolete": false
     },
