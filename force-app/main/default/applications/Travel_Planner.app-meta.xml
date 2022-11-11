@@ -21,7 +21,9 @@
     <tabs>standard-Quote</tabs>
     <tabs>standard-Contract</tabs>
     <tabs>standard-Invoice</tabs>
-    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>standard-WorkOrder</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Travel_Planner_UtilityBar</utilityBar>
 </CustomApplication>

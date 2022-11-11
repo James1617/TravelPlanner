@@ -1,0 +1,122 @@
+{
+  "appPageId" : "1bbee4e1-a958-4775-a28b-e9905bc9dbce",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "id" : "b11c0819-b819-412a-9c5d-f140bc9893d4",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<h1 style=\"text-align: center;\"><strong style=\"color: rgb(30, 36, 67); font-size: 28px;\">Welcome!</strong></h1><p style=\"text-align: center;\"><span style=\"font-size: 20px;\">Looking for inspiration to travel in Colombia? Below you'll find some details</span></p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "149010a1-4fef-45e0-a365-e7632e96b111",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f07f3164-718a-4e35-bab3-f858fc92d21a",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "55e92688-e400-4638-a414-3dd1301436e4",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "f19c679b-c87a-4366-b49b-a5f3cf959081",
+            "allowGuestUser" : true,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : {
+                "type" : "Home"
+              },
+              "fqn" : "forceCommunity:forceCommunityFeed"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "News & Updates"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "55e92688-e400-4638-a414-3dd1301436e4",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "canChangeSorting" : true,
+            "defaultFilter" : "",
+            "defaultSortOrderHomeFeed" : "Relevance",
+            "defaultSortOrderTopicsFeed" : "Relevance",
+            "feedDesign" : "DEFAULT",
+            "hasFeedSearch" : true,
+            "subjectId" : "{!recordId}",
+            "type" : "Home"
+          },
+          "componentName" : "forceCommunity:forceCommunityFeed",
+          "id" : "86d2c5b4-5faf-4279-a9d8-3353c3e29d8c",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "f19c679b-c87a-4366-b49b-a5f3cf959081",
+        "regionLabel" : "News & Updates",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "d18b8b17-ddcb-4eeb-8e44-caee142ad995",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "maxWidth" : 100,
+        "overlayColor" : "rgba(0,0,0,0.4)",
+        "overlayHoverColor" : "",
+        "radius" : 0,
+        "showTitle" : true,
+        "textAlignment" : "center",
+        "textBgColor" : "rgba(0,0,0,0)",
+        "textBgHoverColor" : "rgba(0,0,0,0)",
+        "textColor" : "",
+        "textHoverColor" : "",
+        "textPosition" : "center center",
+        "title" : "Featured Topics"
+      },
+      "componentName" : "forceTopic:featuredTopics",
+      "id" : "dbfedfd5-606f-45ff-9f32-89d2a7e776ee",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bf1b52e0-ddd8-4eea-9cd2-0a1078db3c26",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "5f59ebb0-484a-495f-970f-5a3335d475ca",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "c171872b-be34-4fa5-ac85-e9f9dad5331e",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "70e5bc89-875b-4cab-896e-95d93b8636fe",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}
