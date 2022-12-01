@@ -1,5 +1,5 @@
 {
-  "serverMaxRevisionCounter": 1809,
+  "serverMaxRevisionCounter": 1883,
   "sourceMembers": {
     "ListView__Bank_Account__c.All": {
       "serverRevisionCounter": 51,
@@ -998,8 +998,8 @@
       "isNameObsolete": false
     },
     "ExperienceBundle__Travel_Planner1": {
-      "serverRevisionCounter": 1765,
-      "lastRetrievedFromServer": 1765,
+      "serverRevisionCounter": 1848,
+      "lastRetrievedFromServer": 1848,
       "memberType": "ExperienceBundle",
       "isNameObsolete": false
     },
@@ -1115,6 +1115,126 @@
       "serverRevisionCounter": 1805,
       "lastRetrievedFromServer": 1805,
       "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Role__Sales_Manager": {
+      "serverRevisionCounter": 1843,
+      "lastRetrievedFromServer": 1843,
+      "memberType": "Role",
+      "isNameObsolete": false
+    },
+    "Role__Operations_Manager": {
+      "serverRevisionCounter": 1844,
+      "lastRetrievedFromServer": 1844,
+      "memberType": "Role",
+      "isNameObsolete": false
+    },
+    "Role__Finance_Manager": {
+      "serverRevisionCounter": 1845,
+      "lastRetrievedFromServer": 1845,
+      "memberType": "Role",
+      "isNameObsolete": false
+    },
+    "Role__Internal_Sales": {
+      "serverRevisionCounter": 1846,
+      "lastRetrievedFromServer": 1846,
+      "memberType": "Role",
+      "isNameObsolete": false
+    },
+    "Role__External_Sales": {
+      "serverRevisionCounter": 1847,
+      "lastRetrievedFromServer": 1847,
+      "memberType": "Role",
+      "isNameObsolete": false
+    },
+    "Profile__External Sales": {
+      "serverRevisionCounter": 1842,
+      "lastRetrievedFromServer": 1842,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Profile__Internal Sales & Ops": {
+      "serverRevisionCounter": 1837,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": true
+    },
+    "Profile__Sales": {
+      "serverRevisionCounter": 1817,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": true
+    },
+    "Profile__Internal Sales": {
+      "serverRevisionCounter": 1860,
+      "lastRetrievedFromServer": 1860,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "BusinessProcess__Opportunity.Sales Process": {
+      "serverRevisionCounter": 1865,
+      "lastRetrievedFromServer": 1865,
+      "memberType": "BusinessProcess",
+      "isNameObsolete": false
+    },
+    "ProfileSessionSetting__Internal_Sales_Ops_profileSessionSetting1668191346720": {
+      "serverRevisionCounter": 1836,
+      "lastRetrievedFromServer": 1836,
+      "memberType": "ProfileSessionSetting",
+      "isNameObsolete": false
+    },
+    "ProfileSessionSetting__null_profileSessionSetting1668438948810": {
+      "serverRevisionCounter": 1859,
+      "lastRetrievedFromServer": 1859,
+      "memberType": "ProfileSessionSetting",
+      "isNameObsolete": false
+    },
+    "ProfilePasswordPolicy__Internal_Sales_Ops_profilePasswordPolicy1668191346581": {
+      "serverRevisionCounter": 1835,
+      "lastRetrievedFromServer": 1835,
+      "memberType": "ProfilePasswordPolicy",
+      "isNameObsolete": false
+    },
+    "ProfilePasswordPolicy__Internal_Sales_profilePasswordPolicy1668438948755": {
+      "serverRevisionCounter": 1858,
+      "lastRetrievedFromServer": 1858,
+      "memberType": "ProfilePasswordPolicy",
+      "isNameObsolete": false
+    },
+    "Certificate__SelfSignedCert_14Nov2022_150516": {
+      "serverRevisionCounter": 1849,
+      "lastRetrievedFromServer": 1849,
+      "memberType": "Certificate",
+      "isNameObsolete": false
+    },
+    "CustomField__PricebookEntry.Valid_from__c": {
+      "serverRevisionCounter": 1878,
+      "lastRetrievedFromServer": 1878,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__PricebookEntry.Valid_through__c": {
+      "serverRevisionCounter": 1880,
+      "lastRetrievedFromServer": 1880,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "CustomField__PricebookEntry.Charged_per__c": {
+      "serverRevisionCounter": 1882,
+      "lastRetrievedFromServer": 1882,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Layout__PricebookEntry-Price Book Entry Layout": {
+      "serverRevisionCounter": 1883,
+      "lastRetrievedFromServer": 1883,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "StandardValueSet__OpportunityStage": {
+      "serverRevisionCounter": 1873,
+      "lastRetrievedFromServer": 1873,
+      "memberType": "StandardValueSet",
       "isNameObsolete": false
     }
   }
