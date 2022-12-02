@@ -1,0 +1,319 @@
+<apex:page showHeader="false" standardStylesheets="false" standardController="Contract">
+    
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:center;'><strong><span style='font-size:24px;font-family:"Times New Roman",serif;'>Service Agreement</span></strong></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>This Service Agreement (&ldquo;Agreement&rdquo;) is being made between Muisca Travel &amp; Events, with tax ID 901337471-1, located in Manizales, Colombia, later referred to in this contract as &ldquo;The Agent&rdquo; and <span style="background:yellow;">{! Contract.Account.Name }</span> with local ID <span style="background:yellow;">{! Contract.Account.Fiscal_ID__c }</span>, domiciled at address <span style="background:yellow;">{! Contract.Account.BillingCountry }</span>, later referred to in this contract as &ldquo;The Client&rdquo;.&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>This contract serves as an agreement of distribution of services and compensation in the planning and realization of The Programme for <span style="background:yellow;">XXX</span>, which will be held in <span style="background:yellow;">xxx</span> for <span style="background:yellow;">xxx PAX</span> from <span style="background:yellow;">XXX</span> to <span style="background:yellow;">XXX</span>; later referred to in this contract as &ldquo;The Programme&rdquo;.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The Client and The Agent may also be referred to as &ldquo;Party&rdquo; or together as the &ldquo;Parties&rdquo;. &nbsp;This Agreement will become effective on <span style="background:yellow;">{! Contract.StartDate }</span>.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: decimal;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Scope of Services &amp; Inclusions</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The Agent agrees to perform the services (&ldquo;Services&rdquo;) listed in this Section. &nbsp;The Parties acknowledge that their obligations pursuant to this Agreement serve as good and valuable consideration for this Agreement. The Agent is responsible for the planning and coordination of The Programme. This shall include making appropriate reservations, reserving necessary space for The Programme, and handling on-site and off-site logistics.&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The documents listed below are an integral part of this agreement. All services, procedures and prices defined in these documents, have to be agreed by mutual consent before signing this agreement:</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <ul style="list-style-type: disc;margin-left:26px;">
+        <li><span style='font-family:"Times New Roman",serif;background:yellow;'>Costings for XXX &ndash; v1</span></li>
+        <li><span style='font-family:"Times New Roman",serif;background:yellow;'>Tailor-made proposal for XXX &ndash; v1</span></li>
+    </ul>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>Additional duties may be required based on the nature of The Programme; some of which are described below:</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span style='font-family:"Times New Roman",serif;'>Inclusions</span>
+            <ol style="list-style-type: lower-roman;">
+                <li><span style='font-family:"Times New Roman",serif;'>Coordinators for operation of The Programme: <span style="background:yellow;">xxx</span></span></li>
+                <li><span style='font-family:"Times New Roman",serif;'>Operational expenses needed for running The Programme</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Support vehicles as needed for the duration of The Programme, as (and if) deemed necessary by The Agent.</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Support staff &ndash; Runners, as (and if) deemed necessary by The Agent.</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Support boats for beach activities, including any pre-arrangements &amp; during service, as (and if) deemed necessary by The Agent.</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Meal expenses &amp; Per Diem for staff.</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Reallocation costs &amp; any necessary lodging for staff, as (and if) deemed necessary by The Agent.</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Printing material for signage including buses, operation documents for staff and suppliers &amp; all necessary internal paperwork to guarantee the operation.</span></li>
+                <li><span style='font-family:"Times New Roman",serif;color:black;'>Data plan &amp; voice package for whole duration of contract for onsite staff.</span></li>
+            </ol>
+        </li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>Duties &amp; responsibilities</span></li>
+    </ol>
+    <ol style="list-style-type: lower-roman;margin-left:107px;">
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>Lead operation of The Programme &amp; veil for its successful outcome.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;border:none windowtext 1.0pt;'>Supplier sourcing, selection, communication &amp; management.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>Supplier payment plan.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>Generate &amp; keep budget updated.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>Advise on logistics &amp; timing.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>Dedication &amp; work for <span style="background:yellow;">XXX</span> during the whole contracted time from detailed planning of the event to on-ground execution &amp; end of Programme open points.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;color:black;'>On-site management of The Programme &amp; timely coordination of activities to guarantee The Programme runs up to plan.</span></li>
+    </ol>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Compensation &amp; payment</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The following payment policies apply:</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <ul style="list-style-type: disc;margin-left:26px;">
+        <li><strong><span style='font-family:"Times New Roman",serif;'>Upon confirmation of the trip &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;30% of the total cost of the group, including land arrangements and domestic/international flights if applicable.</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>30 days before arrival &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;70% of the total cost of the group plus/minus any variations generated as part of revisions to The Programme</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>Within 2 weeks of the departure of the group &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;Any additional fees or charges generated during the operation of the trip, as a result of additions and properly agreed by both Parties.</span></li>
+    </ul>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The Client shall make the payment in the currency agreed by both Parties in the quotation, covering all intermediary Bank Fees making sure the agreed amount is received in full and into the Bank Account indicated by The Agent.&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Reduction Policy</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The following reduction policy applies:</span></p>
+    <ul style="list-style-type: disc;margin-left:26px;">
+        <li><span style='font-family:"Times New Roman",serif;background:yellow;background:yellow;'>10%</span><span style='font-family:"Times New Roman",serif;'>&nbsp;of the total number of participants can be reduced free of charge between the conclusion of the contract and 30 days before the event starts.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;background:yellow;background:yellow;'>5%</span><span style='font-family:"Times New Roman",serif;'>&nbsp;of the total number of participants can be reduced free of charge between 29 and 10 days before the event starts.</span></li>
+        <li><span style='font-family:"Times New Roman",serif;background:yellow;background:yellow;'>0%</span><span style='font-family:"Times New Roman",serif;'>&nbsp;of the total number of participants can be reduced free of charge, within 9 or less days before the event starts.</span></li>
+    </ul>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Cancellation Policy</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>Cancellations originated due to COVID-19 restrictions, a new pandemic, closed borders and general inability to travel due to new governmental (<em>either from the country of origin of the customer or the country of destination, Colombia)&nbsp;</em>and/or force majeure, will result in the following cancellation policies:</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <ul style="list-style-type: disc;margin-left:26px;">
+        <li><strong><span style='font-family:"Times New Roman",serif;'>Time of confirmation to 0 days before arrival &ndash; Land services</span></strong><span style='font-family:"Times New Roman",serif;'>: 100% available for land services to use on newly proposed dates. If both Parties cannot agree on a new set of dates, any payment done until the moment shall be reimbursed.&nbsp;</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>Time of confirmation to 0 days before arrival &ndash; International and/or domestic flights:</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;All efforts will be put into reimbursing the flights, yet these are regularly subject to 100% cancellation fee</span></li>
+    </ul>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>In the case that cancellation is due to different reasons to those enclosed above, then the following cancellation policies will apply for land arrangements:</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <ul style="list-style-type: disc;margin-left:26px;">
+        <li><strong><span style='font-family:"Times New Roman",serif;'>60 &ndash; 45 days before arrival &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;15% cancellation fees</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>44 to 30 days before arrival &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;30% cancellation fees</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>29 to 15 days before arrival &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;50% cancellation fees</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>14 to 7 days before arrival &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;75% cancellation fees</span></li>
+        <li><strong><span style='font-family:"Times New Roman",serif;'>6 to no show &ndash;</span></strong><span style='font-family:"Times New Roman",serif;'>&nbsp;100% cancellation fees</span></li>
+        <li><span style='font-family:"Times New Roman",serif;'>International and/or domestic flights will be subject to 100% cancellation fee from time of confirmation.</span></li>
+    </ul>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <table style="border: none;width:544.4pt;border-collapse:collapse;">
+        <tbody>
+            <tr>
+                <td style="width:162.8pt;border:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Calibri",sans-serif;color:black;'>From</span></strong></p>
+                </td>
+                <td style="width:163.0pt;border:solid windowtext 1.0pt;border-left:none;padding:  0cm 5.4pt 0cm 5.4pt;height:17.0pt;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Calibri",sans-serif;color:black;'>To</span></strong></p>
+                </td>
+                <td style="width:36.6pt;border:solid windowtext 1.0pt;border-left:none;padding:  0cm 5.4pt 0cm 5.4pt;height:17.0pt;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Calibri",sans-serif;color:black;'>Penalty</span></strong></p>
+                </td>
+                <td style="width:55.0pt;border:solid windowtext 1.0pt;border-left:  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Calibri",sans-serif;color:black;'>Land</span></strong></p>
+                </td>
+                <td style="width:55.0pt;border:solid windowtext 1.0pt;border-left:  none;padding:0cm 5.4pt 0cm 5.4pt;height:17.0pt;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Calibri",sans-serif;color:black;'>Flights</span></strong></p>
+                </td>
+                <td style="width:72.0pt;border:solid windowtext 1.0pt;border-left:none;padding:  0cm 5.4pt 0cm 5.4pt;height:17.0pt;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Calibri",sans-serif;color:black;'>Total</span></strong></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 162.8pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Saturday, 1 January 2022</span></p>
+                </td>
+                <td style="width: 163pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Sunday, 16 January 2022</span></p>
+                </td>
+                <td style="width: 36.6pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>15%</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$5.148</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$5.105</span></p>
+                </td>
+                <td style="width: 72pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$10.253</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 162.8pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Monday, 17 January 2022</span></p>
+                </td>
+                <td style="width: 163pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Monday, 31 January 2022</span></p>
+                </td>
+                <td style="width: 36.6pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>30%</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$10.296</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$5.105</span></p>
+                </td>
+                <td style="width: 72pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$15.401</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 162.8pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Tuesday, 1 February 2022</span></p>
+                </td>
+                <td style="width: 163pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Tuesday, 15 February 2022</span></p>
+                </td>
+                <td style="width: 36.6pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>50%</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$17.160</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$5.105</span></p>
+                </td>
+                <td style="width: 72pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$22.265</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 162.8pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Wednesday, 16 February 2022</span></p>
+                </td>
+                <td style="width: 163pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Wednesday, 23 February 2022</span></p>
+                </td>
+                <td style="width: 36.6pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>75%</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$25.740</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$5.105</span></p>
+                </td>
+                <td style="width: 72pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$30.845</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 162.8pt;border-right: 1pt solid windowtext;border-bottom: 1pt solid windowtext;border-left: 1pt solid windowtext;border-image: initial;border-top: none;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Thursday, 24 February 2022</span></p>
+                </td>
+                <td style="width: 163pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>Wednesday, 2 March 2022</span></p>
+                </td>
+                <td style="width: 36.6pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>100%</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$34.320</span></p>
+                </td>
+                <td style="width: 55pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$5.105</span></p>
+                </td>
+                <td style="width: 72pt;border-top: none;border-left: none;border-bottom: 1pt solid windowtext;border-right: 1pt solid windowtext;padding: 0cm 5.4pt;height: 16pt;vertical-align: bottom;">
+                    <p style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;text-align:right;'><span style='font-family:"Calibri",sans-serif;color:black;'>$39.425</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Duration &amp; Due Termination of Contract</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;color:black;'>The term of this Agreement is from the date of Signing of this contact to the termination of all services of The Programme, which are stipulated to have ended by <span style="background:yellow;">xxx</span>; one day after official closure of The Programme and final settlement of all accounting matters.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;color:black;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>This Agreement will automatically terminate when both Parties have performed all their obligations under the Agreement and all payments have been received. &nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Waiver</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>Neither Party can waive any provision of this Agreement, or any rights or obligations under this Agreement, unless agreed to in writing by the Parties. If any provision, right, or obligation is waived, it&rsquo;s only waived to the extent agreed to in writing.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Data Protection</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&lsquo;Personal data&rsquo; and &lsquo;process/processing&rsquo; shall have the same meaning on the protection of individuals with regard to the processing of personal data and on the free movement of such data.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The Agent agrees that personal data given by <span style="background:yellow;">XXX</span> is exclusively intended for processing activities that are carried out on behalf of <span style="background:yellow;">xxx</span> in accordance with its instruction and the written contract. The Agent also doesn&rsquo;t share personal data given by <span style="background:yellow;">XXX</span> with third Parties especially other legal entities and The Agent deletes the personal data of all guest after the termination of the program.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>Furthermore, The Agent agrees that &lsquo;technical and organisational security measures&rsquo; are installed, which are aimed at protecting personal data against accidental or unlawful destruction or accidental loss, alteration, unauthorised disclosure or access. The Agent will also promptly notify <span style="background:yellow;">XXX</span> about any accidental and unauthorised loss.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Amendments</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>This Agreement may be modified as needed. &nbsp;To make a modification, the Parties have to agree to the modification in writing (an &quot;Amendment&quot;). The terms of this Agreement will apply to any Amendment the Parties make.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>Entire Agreement</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-size:19px;font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>This Agreement puts the Parties entire understanding of the Services to be performed and anything else the Parties have agreed to. This Agreement supersedes any other written or verbal communications between the Parties.&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'>
+        <ol style="margin-bottom:0cm;list-style-type: undefined;margin-left:26px;">
+            <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;'><strong><span style='font-family:"Times New Roman",serif;font-size:14.0pt;'>State of Justice</span></strong></li>
+        </ol>
+    </div>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><span style='font-family:"Times New Roman",serif;'>The place of jurisdiction and performance is Colombia.</span></p>
+    <p> <span style='font-size:16px;font-family:"Times New Roman",serif;'> &nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;text-align:justify;'><strong><span style='font-size:19px;font-family:"Times New Roman",serif;'>Agreement of contract:</span></strong></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>By signing below, the Parties agree to the terms of this Agreement.</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong><u><span style='font-family:"Times New Roman",serif;'>The Client - Service Receiver</span></u></strong></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Signed:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Name: &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Title:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Date:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><strong><u><span style='font-family:"Times New Roman",serif;'>The Agent - Service Provider</span></u></strong></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Signed:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Name: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Title:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>Date:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;___________________</span></p>
+    <p style='margin:0cm;font-size:16px;font-family:"Calibri",sans-serif;'><span style='font-family:"Times New Roman",serif;'>&nbsp;</span></p>      
+</apex:page>
